@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<title>Enter password</title>
+
+<style type="text/css">
+
+body {
+background-color: #000000;
+color: #ffffff;
+}
+
+body {
+display: flex;
+left-margin: auto;
+right-margin: auto;
+top-margin: auto;
+bottom-margin: auto;
+width: 1000px;
+height: 1000px;
+}
+
+body {
+font-size: 30pt;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<form>
+
+    <label for="pswd">Password, please! (must click 'Submit' to enter): </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+
+
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "b1ngu$";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="main.html";
+        }
+        else{
+            alert("Incorrect password.");
+        }
+    }
+
+
+</script>
+
+
+
+</body>
+
+</html>
