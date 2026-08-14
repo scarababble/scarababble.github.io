@@ -1,0 +1,66 @@
+<style type="text/css">
+
+html {
+    cursor: url("cursor.png"), auto;
+}
+
+html a {
+cursor: url("cursorhover.png"), auto;
+}
+
+body {
+background-color: #000000;
+}
+
+
+body { 
+font-family: 'Times New Roman', serif;
+}
+
+body { 
+font-size: 25pt;
+}
+
+#sidebar {
+width: 500px;
+margin-left: auto;
+}
+
+
+#container {
+display: flex;
+width: 1100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#main {
+width: 500px;
+height: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+text-align: center;
+color: #ffffff;
+text-decoration: none;
+}
+
+#main a {
+width: 500px;
+height: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+text-align: center;
+color: #505050;
+text-decoration: none;
+}
+
+
+#content {
+margin-bottom: auto;
+}
+
+</style>
